@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; height: 800px; width: 1200px; align-items: center; justify-content: center; background-color: rgb(115, 37, 38); background-image: none; align-self: auto; flex-direction: column;">
+        <ui:VisualElement style="flex-grow: 1; height: 350px; width: 1200px; -unity-background-image-tint-color: rgb(147, 44, 44); align-items: center; justify-content: center; align-self: auto; align-content: flex-start; flex-direction: row;">
+            <ui:ListView name="CharacterList" style="width: 230px; background-color: rgb(110, 57, 37); background-image: none; border-left-color: rgb(36, 15, 15); border-right-color: rgb(36, 15, 15); border-top-color: rgb(36, 15, 15); border-bottom-color: rgb(36, 15, 15); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; height: 230px;" />
+            <ui:VisualElement style="flex-grow: 1; background-color: rgb(0, 0, 0); height: 100px; width: 313px; align-items: flex-end; justify-content: space-between;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
