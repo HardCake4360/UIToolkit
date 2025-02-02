@@ -1,10 +1,10 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements"
-        xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements"
-        noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:VisualElement style="flex-grow: 1;">
-        <ui:Label text="This is a Label" display-tooltip-when-elided="true"/>
-        <ui:Button text="This is a Button" display-tooltip-when-elided="true" name="button"/>
-        <ui:Toggle label="Display the counter?" name="toggle"/>
-        <ui:TextField picking-mode="Ignore" label="Text Field" text="filler text" name="input-message" />
+        <ui:Label text="This is a Label" display-tooltip-when-elided="true" />
+        <ui:Button text="This is a Button" display-tooltip-when-elided="true" name="button" />
+        <ui:Toggle label="Display the counter?" name="toggle" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" name="input-message" value="filler text" />
+        <ui:Button text="Button" name="button2" />
+        <ui:VisualElement enabled="true" name="sprite" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/sprites/BBANG.png?fileID=2800000&amp;guid=0ff1a876809157740bb087901e8a3fce&amp;type=3#BBANG&quot;); display: flex;" />
     </ui:VisualElement>
 </ui:UXML>
