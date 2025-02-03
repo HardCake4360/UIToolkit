@@ -44,8 +44,14 @@ public class SimpleRuntimeUI : MonoBehaviour
     }
     private void OnClick(ClickEvent evt)
     {
-        Debug.Log("sdjf;alkjdas;lfkjsa;dlfj");
-        _sprite.SetEnabled(false);
+        if(_sprite.style.display == DisplayStyle.None)
+        {
+            _sprite.style.display = DisplayStyle.Flex;
+        }
+        else
+        {
+            _sprite.style.display = DisplayStyle.None;
+        }
     }
 
     public static void InputMessage(ChangeEvent<string> evt)
